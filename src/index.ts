@@ -2,7 +2,7 @@ import express, { Application } from 'express'
 import imageProcess from './routes/imageProcess'
 
 const app: Application = express()
-const port = 8000
+const port = 3000
 
 app.use('/api/image', imageProcess)
 
